@@ -1,4 +1,5 @@
-FROM ros:humble
+ARG L4T_TAG=l4t-r36.4
+FROM dustynv/ros:humble-ros-base-${L4T_TAG}
 
 # Keep installs non-interactive and pip tidy
 ENV DEBIAN_FRONTEND=noninteractive
