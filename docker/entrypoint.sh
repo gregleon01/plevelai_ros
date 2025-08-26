@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 set -e
 : "${ROS_DISTRO:=humble}"
 source /opt/ros/$ROS_DISTRO/setup.bash
